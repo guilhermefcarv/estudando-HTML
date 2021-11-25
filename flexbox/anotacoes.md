@@ -404,7 +404,7 @@ A caixa se torna flex, fazendo com que os elementos internos possam receber melh
 ## flex
 
 - shorthand
-- flex-grow flex-shrink flex-basis
+- flex-grow | flex-shrink | flex-basis
 - podem ter 1, 2 ou 3 valores
 
 
