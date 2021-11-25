@@ -407,6 +407,21 @@ A caixa se torna flex, fazendo com que os elementos internos possam receber melh
 - flex-grow | flex-shrink | flex-basis
 - podem ter 1, 2 ou 3 valores
 
+### flex-grow
+
+- Define a habilidade de um flex item de crescer, caso necessário. O valor dessa propriedade é um valor numérico sem indicação de unidade, que serve para cálculo de proporção. Este valor dita a quantidade de espaço disponível no container que será ocupado pelo item.
+
+
+### flex-shrink
+
+- Define a habilidade de um flex item de encolher, caso necessário. Valores negativos não são aceitos pela propriedade.
+
+
+### flex-basis
+
+- Define o tamanho padrão para um elemento antes que o espaço remanescente do container seja distribuído. Pode ser um comprimento (por exemplo, 20%, 5rem, etc) ou uma palavra-chave:
+    - `auto`: observe minhas propriedades de altura ou largura
+    - `content`: estabeleça o tamanho com base no conteúdo interno do item (podendo ser também: `max-content`,`min-content` ou `fit-content`)
 
 ## Alterando tamanho de múltiplos itens
 
