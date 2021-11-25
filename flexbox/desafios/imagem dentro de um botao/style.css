@@ -1,0 +1,23 @@
+.container{
+    display: flex;   
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: .4rem;
+    direction: row;
+}
+
+
+button img{
+    width: 2rem;
+    height: 2rem;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    line-height: 0;
+    gap: .4rem;
+}

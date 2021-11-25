@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+}
+
+body{
+    min-height: 100vh; /*adiciona um altura para que se adicione um margin-auto no footer e ele fique la em baixo*/
+    display: flex;
+}
+
+footer{
+    display: flex;
+    margin-top: auto;
+    flex: 1;
+    background-color: lightgray;
+    height: 8rem;
+    align-items: center;
+    justify-content: center;
+}
